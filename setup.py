@@ -23,7 +23,7 @@ package_data = {'pytz': resources}
 assert len(resources) > 10, 'zoneinfo files not found!'
 
 setup (
-    name='pytz',
+    name='tz',
     version=pytz.VERSION,
     zip_safe=True,
     description='World timezone definitions, modern and historical',
